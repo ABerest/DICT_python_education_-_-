@@ -12,4 +12,22 @@ print('your age is', age, 'thats a good time to start programming')
 b = int(input('Now I will prove to you that I can count to any number you want. \n'))
 for i in range(b + 1):
     print(str(i) + '!')
-    print('Completed! Have a nice day!')
+print('let\'s test your programmint knowledge!')
+while True:
+    print('What is my name?\n1.Chatgpt\n2.Gemini\n3.ChatBot\n4.Habib')
+    c = input('Enter your answer: \n')
+    if c == '3':
+        print('You are right! Test Completed!')
+        print('Congratulations! Have a nice day!')
+        break
+    elif c == '1' or c == '2' or c == '4':
+        print('wrong, pls try again!\n')
+        continue
+    else:
+        print('im not understood, try again!\n')
+        continue
+
+
+
+
+

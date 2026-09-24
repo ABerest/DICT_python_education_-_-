@@ -9,3 +9,7 @@ remainder5 = int(input('by 5: '))
 remainder7 = int(input('by 7: '))
 age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 print('your age is', age, 'thats a good time to start programming')
+b = int(input('Now I will prove to you that I can count to any number you want. \n'))
+for i in range(b + 1):
+    print(str(i) + '!')
+    print('Completed! Have a nice day!')

@@ -141,24 +141,21 @@ while True:
     a = input('Please enter the number of the habitat you would like to view: ')
     if a == '1':
         print(camel)
-        break
     elif a == '2':
         print(lion)
-        break
     elif a == '3':
         print(deer)
-        break
     elif a == '4':
         print(goose)
-        break
     elif a == '5':
         print(bat)
-        break
     elif a == '6':
         print(rabbit)
+    elif a == 'exit':
+        print ('See you later!')
         break
     else:
-        print ('wrong habbitat')
+        print ('\nwrong habbitat\n')
         continue
 
-print ('You have reached the end of the program.')
+
